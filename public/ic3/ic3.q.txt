@@ -1,0 +1,13 @@
+What goes in the <head> of a page versus the <body>, and who sees each?
+The head of the page tells the user what the page is so typically a title and the body tells the user what the page is about 
+usually information about what the programmer decides.
+
+What is the difference between running your page at localhost:3000 and at <your-IP>:8080?
+Localhost is when you would want only your device to have access to the website while having your ip would mean other devices 
+can access your program.
+
+In your own words, what does push do and what does pull do in today's loop?
+Push moves your code to github while pull "pulls" the code for it to be launched in the droplet.
+
+Why do we test on localhost:3000 before pushing to production?
+To make sure that it has no errors before allowing it to be accessed by others.
