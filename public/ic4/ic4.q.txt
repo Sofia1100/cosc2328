@@ -1,0 +1,13 @@
+What is the difference between an unordered (<ul>) and an ordered (<ol>) list, and when would you use each?
+Unordered would mean a bullet list would appear while an ordered list is more of a 1, 2, 3 list ( in order).
+
+Why is a relative link the right choice for a page on your own server, and when must you use a full absolute URL (starting with https://)? (In ../ic3/ic3.html, what does .. mean?)
+A relative link does not require the exact address and it also shortness the workload and time needed to retrive the file.
+
+What is alt text on an image for, and who benefits from it?
+The alt text on an image is an alternative name for the image that appears when the user hovers over an image with their mouse.
+It benefits both user by letting them know another name for the image and it helps the programmer by allowing the programmer
+to use a simpler name for the image. 
+
+What does it mean that images/favorite.jpg is a relative path?
+It does not utilize the full url of the original image which is better if the original url is down or something.
