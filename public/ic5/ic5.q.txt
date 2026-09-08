@@ -1,0 +1,5 @@
+What does an external stylesheet do, and why is keeping CSS in its own file better than putting styles inside the HTML?
+
+In a CSS rule, what is the selector and what is the declaration (property: value;)? Give one example from your file.
+What is the difference between a class selector (.card) and an id selector (#intro), and when would you use each?
+Both the <link> (css/ic5.css) and the <img> (images/photo.jpg) use relative paths. What does each one point to, relative to where ic5.html lives?
