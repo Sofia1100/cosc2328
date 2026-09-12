@@ -1,0 +1,14 @@
+Name the four layers of the box model from the inside out. Which two add to the total size of the element?
+The four layers of the box model are the content, padding, boarder and margin. The two that would add total
+the total size would be the padding and the boarder.
+What does margin: 16px auto do, and why does it center the box?
+Margin 16px auto would set the top and bottom margins to 16px while the left and right would be on auto
+which leads the box to be centered around its context due to the auto on the left and right.
+What is a CSS variable, where do you define it, and how do you use it? Give one example from your file.
+A CSS variable is something that stores a value, you would define it within a selector and use it by 
+wrapping var() around a variable. An example from the file where this is used is within the .box-alt 
+selector where it is calulating the var(--space) ** 2 to double the inside space. 
+What does the selector .box h2 match, and how is it different from h2 by itself?
+The selector .box h2 matches the class box within the 1c6 html file and it is different from h2
+by itself because with that class it is creating a box within the second header which h2
+wouldnt be able to do by its self. 

@@ -1,0 +1,46 @@
+/* HW3 – COSC 2328 – Professor McCurry
+   Implemented by: Sofia Garcia */
+
+
+body {
+  font-family: Times, Times New Roman, serif;
+  background-color: #F4C2C2;
+  color: #222222;
+  margin: 0;
+  padding: 16px;
+}
+
+:root {
+  --primary-color: #0b5394;
+  --light-bg: #ffffff;
+  --space: 16px;
+  --radius: 8px;
+}
+
+#name {
+    font-size: 64px;
+    color: #0b5394;
+    text-align: center;
+}
+
+.subhead{
+  color: #C575FF;
+  text-align: center;
+}
+
+.image-wrapper{
+  padding: var(--space);                 /* space INSIDE the border */
+  border: 3px solid var(--primary-color);/* the border itself */
+  margin: var(--space) auto;             /* space OUTSIDE; auto centers it */
+  background-color: var(--light-bg);
+  border-radius: var(--radius);
+}
+
+.image-wrapper img{
+    width: 300px;
+}
+
+.job-title:hover {
+  color: #90EE90;
+  text-decoration: underline;
+}
