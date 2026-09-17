@@ -1,0 +1,4 @@
+Name: Sofia Garcia
+SEU username: sgarci76
+Droplet URL: http://167.99.239.135:8080/hw3/hw3.html
+GitHub repo: https://github.com/Sofia1100/cosc2328
