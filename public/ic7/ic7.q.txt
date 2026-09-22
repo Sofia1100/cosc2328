@@ -2,8 +2,19 @@ What is the difference between <th> and <td>, and who benefits from using <th> c
 The difference between <th> and <td> would be that the <th> would contain the header of the
 table in order to label and let the user know what the table is about/what they are looking at.
 In contrast, <td> would be the table data or where the data is being stored in the table (in
-its individual boxes).
+its individual boxes). As for who it would benefit, most likely the user as it would be able
+to label the header and make the information on the table a lot more clear.
 
 What do <thead>, <tbody>, and <tfoot> organize, and why split a table into them?
+They create the head, body, and foot of the table and organize the data store within them as such.
+So for example, body would store the main data in the body of the table and footer would put remaning 
+information "underneath" the table. You would split a table into them for orgization purposes especially
+when detailing with a lot of information. 
+
 What does colspan="4" do? When would you use rowspan instead?
+This command would make the columns of the table span stretch or encompase 4 columns. You would
+use rowspan instead when you would want to make the rows span vertically accross several rows.
+
 What does border-collapse: collapse change about the table's appearance?
+It would essentally eliminate any gaps between the table cells by collapsing them to a single line.
+This would change the tables appearance by making it look like one cohesive table instead of having gaps. 
