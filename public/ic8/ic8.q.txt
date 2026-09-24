@@ -1,0 +1,14 @@
+How does the for/id pair improve a form, and who benefits?
+The for/id pair improve a form by enhansing usabliltiy and accessability. It would benefit some users that might need some sort of
+assistants like visually impaired or color blind individuals.
+
+What does type="email" give you for free, compared to type="text"?
+What type = "email" would essentially give the validation of an email for free such as checking an @ or a .com, .org, .gov 
+componets of an email.
+
+What is the difference between method="post" and method="get"?
+The differenct between the method = "post" and method = "get" would be that method = "post" would append the data to the URL (like searching or filtering) while
+method = "get" would hide the information that is being submitted by the user.
+
+Why is built-in HTML validation (required, pattern) useful even though a determined user could bypass it?
+Because it provents mistakes from being submitted into the server and allows for the user to correct those mistakes with hints. 
