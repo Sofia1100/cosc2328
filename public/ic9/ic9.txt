@@ -1,0 +1,13 @@
+Why does .card need position: relative for the badge to land in its corner?
+Because when the page is resized or on different devices, then the badge would need to be relative to the position of the card
+in order to resize properly.
+
+What does z-index control, and when do you need it?
+Z-index controls the visual stacking order of the elements you add and you need it when you have multiple elements overlapping with one another.
+
+What does "mobile-first" mean, and how do the two media queries build on the base styles?
+Mobile first would mean when you design your website for the smaller screens as a base line then increase the screen size and adjust for that.
+
+What does object-fit: cover do to an image, and why pair it with max-width: 100%?
+It make the image fit the entire width of the screen by scaling it and you would pair it with max width in order to make sure the
+image never gets bigger than the screen width.
