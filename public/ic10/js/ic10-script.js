@@ -54,5 +54,5 @@ if (itemCount) {
     console.log("Cart is empty.");
 }
 
-null == undefined; 
-null === undefined;
+console.log(null == undefined); 
+console.log(null === undefined);
