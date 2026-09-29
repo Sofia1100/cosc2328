@@ -1,0 +1,16 @@
+What does defer do, and why link the script in the <head> with it?
+Defer allows Javascript to run in the background and you would link the script in the head because you would want
+it to parse the html file first.
+
+What is the difference between const and let? Give one use for each.
+Const is when you would want to assign a variable a value and not change it while let allows you to change the variable latter.
+You might want to use let with true or false varaibles if you dont want them static and const with an absolute variable like age.
+
+What does "truthy/falsy" mean? Name two values that are falsy.
+Truthy/falsy refures to values that evaluate to true or false usually in an if or while statement.
+Two values that are falsy are 0 and null.
+
+In your combined-logic step, what do &&, ||, and ! each do?
+&& would be and, usually used in a truthy falsy statement (both need to be true for it to evaluate as true).
+|| would be or meaning only one value has to evaluate as true for it to be counted as true.
+! would be the not operator essentially making true and false oposites
