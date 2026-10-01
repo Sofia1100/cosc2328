@@ -1,0 +1,6 @@
+Give one difference between a function declaration and a function expression.
+
+
+When can an arrow function skip the return keyword (implicit return)?
+What does the rest operator (...) let a function do?
+In an object method, what does this refer to?
