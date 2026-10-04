@@ -1,6 +1,11 @@
 Give one difference between a function declaration and a function expression.
-
+One difference between a function declaration and a function expression is hoisting.
 
 When can an arrow function skip the return keyword (implicit return)?
+When the body function only has one expression.
+
 What does the rest operator (...) let a function do?
+The rest operator allows the function to accept an indefinite number of variables.
+
 In an object method, what does this refer to?
+"this" would refer to the current object that is being referenced within the method. 

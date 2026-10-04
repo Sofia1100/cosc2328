@@ -22,7 +22,7 @@ let isLoggedIn = false;
 
 if (isLoggedIn) {
     console.log("Welcome back!");
-}else {
+} else {
     console.log("Please log in");
 }
 
@@ -32,7 +32,7 @@ let username = false;
 
 if (username) {
     console.log("Username is accepted: " + username);
-}else {
+} else {
     console.log("Username is required");
 }
 
@@ -43,7 +43,7 @@ const agreedToTerms = true;
 
 if (hasAccount && isEmailVerified || agreedToTerms) {
     console.log("Registration allowed");
-}else {
+} else {
     console.log("Registration blocked");
 }
 
@@ -54,5 +54,5 @@ if (itemCount) {
     console.log("Cart is empty.");
 }
 
-console.log(null == undefined); 
+console.log(null == undefined);
 console.log(null === undefined);
