@@ -1,0 +1,6 @@
+What's the difference between getElementById and querySelector? When would you reach for each one?
+
+
+What does querySelectorAll return, and why do you need forEach (or a loop) to do something with every item in it?
+Name the three classList methods you used today and what each one does.
+Why is textContent considered safer than innerHTML for content you didn't write yourself?
