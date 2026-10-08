@@ -1,6 +1,12 @@
 What's the difference between getElementById and querySelector? When would you reach for each one?
-
+The difference between getElementById and querySelector is that getElementById only selects an element by its ID while querySelector can 
+select any css selector. You would use each one depending if the element has an ID or not.
 
 What does querySelectorAll return, and why do you need forEach (or a loop) to do something with every item in it?
+querySelector returns like an array object and you would need a for Each loop to touch each element in the array.
 Name the three classList methods you used today and what each one does.
+There was classList.add which added an attribute to an element. There was classList.remove which removed an attribute from an element. And finally 
+there was classList.toggle which allowed you to toggle a certain attribute such as hidden.
+
 Why is textContent considered safer than innerHTML for content you didn't write yourself?
+Because it treates all input as text rather than code so it will not have any effect. 
