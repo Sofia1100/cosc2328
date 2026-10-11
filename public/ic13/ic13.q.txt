@@ -1,0 +1,16 @@
+What is event delegation, and why attach the click listener to the gallery container instead of to each card?
+An event delegation is a patter where you attach an event to a parent instead of mutliple child elements. You would 
+want to attach the click listener to the gallery container instead of each card for better performance and cleaner code.
+
+What does the dataset property let you do, and how does data-product-name become accessible in JavaScript?
+The dataset allows you to read and write to the attributes and data-product-name becomes accesible in JavaScript
+by stringing the data- prefix and converting the hyphenated text.
+
+What does event.preventDefault() do in the submit handler, and what would happen without it?
+The event.prevent Default stops the browser from continuing event if the user enters something that would break it.
+
+Why does the promo-code feedback use keyup instead of, say, a click event?
+To provide instant and realtime validation while the user types.
+
+The promo code changes the total, which is displayed by a completely different piece of code (the display-update function) than the one that reads the promo input (the keyup handler). What connects those two, and why does that connection make the discount feature easier to add than if each handler updated the page directly?
+I would say what connects the two would be the discountRate variable. It makes it easier to add through the connection then updating it correctly for the sake of allowing the rate to save and not having to rum a calculation each time the user types?
