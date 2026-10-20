@@ -1,0 +1,14 @@
+What's the difference between the Product instances you built today and the plain object literals you used in earlier ICs? Why does that matter once you need many similar objects?
+Product Instance are built from a blueprint that defines structure and plain object literals are created using curly braces. It matters for memory efficiency and maintianability
+
+Why is a method defined on Product.prototype more memory-efficient than a method defined inside the constructor function itself?
+Because the function object is stored in memory only once and shared by all instances. 
+
+In the instructor's class demo, what changed about how new Product(...) is called, compared to your Step 5 function-based version? What does your answer tell you about what a class actually is, underneath the syntax?
+I am going to be honest I am not compeletly sure as I was not here in the beginning of class for a demo.
+
+What does super() do inside PremiumProduct's constructor, and what would go wrong if it were called after the line that sets this.warrantyYears instead of before?
+It executes the constructor of its parent class
+
+Walk through exactly what happens, in order, when you click "Sort by Price": which array method runs, what does the compare function you wrote actually compare, and what does it hand back to your render function?
+The array method that runs is the list and it compares to the function by running an array and it hand back a list to a render function
