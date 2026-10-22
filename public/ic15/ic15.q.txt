@@ -1,13 +1,19 @@
 What does fetch() actually return immediately, and why isn't that your data? What is a Promise a placeholder for?
-fetch() actually returns a promise object and it isnt in the data because a promise object doesnt hold raw data (i think).
+fetch() actually returns a promise object and it isnt in the data because a promise object doesnt hold raw data (i think). 
+A promise is a placeholder for future data
 
 What does the await keyword do, and why can it only be used inside a function marked async?
-
+The await keyword would pause a function until a promise can settle it and it can only be used inside a function marked async
+because that function can be paused and not affect the program as much as a non async function.
 
 fetch()'s Promise resolved successfully for a misspelled Pokémon name — it didn't reject. So why did the page show a "not found" message instead of crashing? What check made that possible? Why is this exact mistake one you're likely to see again in a real job?
-
+I would assume it would resolve other errors but a 404 one and the check that allowed it not to crash was the .ok one. I 
+would assume that you would see this in a real job as because people may forget about promise not resolving 404's?
 
 Why do you need two awaits in your search function — one for fetch(...) and one for response.json()? What is each one waiting on?
-
+The first one waits for the url and the second one would wait for the browser to read json? I would assume you would need these awaits
+as they provide additional feedback.
 
 Where did map() show up in this IC, and how is what it did here similar to how you used it (or forEach()) on the array of products in IC14?
+map()showed up in a function within pokemonCard.innerHTML and I am assuming it is similar to how it was used in IC14 because it is being applied to 
+every object on the array. 
