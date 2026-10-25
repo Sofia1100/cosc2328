@@ -1,0 +1,17 @@
+What is JSX, and why doesn't the browser understand it directly? What job does Babel do for it?
+JSX allows you to write HTML like code in JS and the browser only understand CSS, JS and HTML so that is why it does not accept JSX.
+Babel essentially translates JSX to the browser.
+
+Why does a component returned from JSX need a single root element, and why do we write className instead of class?
+JSX needs a root element when returning a component because it is not HTMl and we write className instead of class because JSX is 
+an extenstion of JS and class is strictly a keyword used to create object oriented classes.
+
+What is a "prop," and how did it let your one CharacterCard function represent four different characters instead of needing four separate functions?
+Prop is a custom input passed into a component to change its data or behavior. And it let the function represent four differnt chatacters instead of one
+by using that function more as a template.
+
+Why does React require a unique key when rendering a list with map()? What shows up in the console if you forget it?
+Nothing shows up on the console if you forget the key and react requires a key so the library can properly track it. 
+
+The lecture mentioned that class components also exist in React. Why did today's IC build only functional components?
+Because function componets are the standard for the industry?
