@@ -1,0 +1,17 @@
+What does useState return? Name both things and describe what each one does.
+useState returns the hunger and energy and they both control the mood of the tomagachi, specifically hunger and energy. 
+
+Why do you write onClick={feedPet} instead of onClick={feedPet()}?
+Because within the onClick, you do not need the () to call the function as you are not inserting any parameters.
+
+After you click Feed, what causes the Hunger number on the screen to update?
+The math function that is allowing the status to be subtracted from.
+
+Trace through getPetMood() with hunger = 40 and energy = 80. Which condition matches first? What does the function return?
+The condition that matches first would be the fourth and final which leads to okay because hunger is 
+over 30 but below 75 which bypass the first and third. Energy is 80 which is over 25 which bypass the second option. 
+
+What is the difference between {hunger > 80 && <p>...</p>} and putting the same logic inside getPetMood()? When is each approach the right choice?
+I think the first one would have to have the parameters of text or class and I think it would have similar logic to the other comparisons in 
+getPetMood(). I think the one already in the method is the right choice when you just have numbers to calculate and the other would be when you
+have other things you would want to take into consideration
