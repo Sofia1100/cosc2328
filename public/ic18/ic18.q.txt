@@ -1,0 +1,16 @@
+What is prop-drilling? Describe a situation where it would be a problem without the Context API.
+Prop drilling is passing data through layers of components as props
+
+What are the three things you need to use the Context API? (Create, Provide, Consume — describe each one.)
+Create makes the context object. Provide wraps the aprt of the tree that needs the data. Consume 
+is which a component calls to read the value.
+
+In this exercise, ModeToggle changes mode state that lives in App, but App never passed toggleMode as a prop. How does ModeToggle get access to it?
+Moggle gets access to it by being rendered inside the provider.
+
+Where in the file must React.createContext() be called, and why does placement matter?
+React.createContext() must be called at the top level of the module before the componets use it
+because it needs to be define first for the to reach it.
+
+What would you have to change if you added a fifth component that also needed to read mode?
+I assume you would need to use React.useContext(HabitatContext); and render it in the provider
