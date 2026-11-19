@@ -32,6 +32,8 @@ app.use("/ic22", require("./routes/ic22-routes"));        // NEW — IC22: mount
 
 app.use('/hw9', require('./routes/hw9-routes'));  // NEW — HW9: mount hw9 router
 
+app.use("/ic23", require("./routes/ic23-routes")); // NEW — IC23: mount the IC23 router
+
 
 app.listen(PORT, "0.0.0.0", () =>                        // 0.0.0.0 makes the server reachable from the droplet
   console.log(`Running on http://localhost:${PORT}`)
