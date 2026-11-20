@@ -1,5 +1,7 @@
 // IC1 – COSC 2328 – Professor McCurry
 // Implemented by: Sofia Garcia
+
+
 require('dotenv').config();                              // NEW — IC19: read .env and load values into process.env
 const express = require("express");                      // load the Express web framework
 const path    = require("path");                         // built-in Node module for working with file paths
