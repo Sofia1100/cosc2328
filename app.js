@@ -8,6 +8,8 @@ const PORT    = process.env.PORT || 3000;               // NEW — IC19: use POR
 
 app.use(express.json());                                 // NEW — IC20: parse JSON request bodies
 
+app.use(express.urlencoded({ extended: true }));
+
 app.use(express.static(path.join(__dirname, "public"))); // serve every file in public/ as a static file
 
 // IC19 — mission status route
@@ -33,6 +35,9 @@ app.use("/ic22", require("./routes/ic22-routes"));        // NEW — IC22: mount
 app.use('/hw9', require('./routes/hw9-routes'));  // NEW — HW9: mount hw9 router
 
 app.use("/ic23", require("./routes/ic23-routes")); // NEW — IC23: mount the IC23 router
+
+app.use('/hw10', require('./routes/hw10-routes'));  // NEW — HW10: mount hw10 router
+
 
 
 app.listen(PORT, "0.0.0.0", () =>                        // 0.0.0.0 makes the server reachable from the droplet
