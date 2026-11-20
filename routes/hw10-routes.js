@@ -12,7 +12,7 @@ function buildPage(monsters, message, error, battle) {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>IC23: Student Directory</title>
-  <link rel="stylesheet" href="css/hw10.css">
+  <link rel="stylesheet" href="/hw10/css/hw10.css">
 </head>
 <body>
   <h1>Monster Arena</h1>
@@ -24,7 +24,6 @@ function buildPage(monsters, message, error, battle) {
       <div class="monster-card">
         <h3>${m.name}</h3>
         <p class = "species">${m.species}</p>
-        <ul>
         <ul>
         <li>ID: ${m.id}</li>
         <li>Attack: ${m.attack}</li>
@@ -63,6 +62,7 @@ function buildPage(monsters, message, error, battle) {
       <h2>Battle Result</h2>
       <div class="fighters">
         <div class="fighter">
+          <h3>${battle.a.name}</h3>
           <p>${battle.a.species}</p>
         <p>ATK ${battle.a.attack} / DEF ${battle.a.defense} / HP ${battle.a.hp}</p>
         <p><strong>Score: ${battle.scoreA}</strong></p>
